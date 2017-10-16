@@ -1,39 +1,26 @@
 package creational.builder;
 
 class Car {
-    private int wheels;
-    private Color color;
-    private Brand brand;
+    private final int wheels;
+    private final Color color;
+    private final Brand brand;
 
-    private Car() {
-    }
-
-    public static Builder newBuilder(final int wheels) {
-        return new Builder(wheels);
+    private Car(Builder builder) {
+        this.wheels = builder.wheels;
+        this.color = builder.color;
+        this.brand = builder.brand;
     }
 
     public Brand getBrand() {
         return brand;
     }
 
-    private void setBrand(final Brand brand) {
-        this.brand = brand;
-    }
-
     public Color getColor() {
         return color;
     }
 
-    private void setColor(final Color color) {
-        this.color = color;
-    }
-
     public int getWheels() {
         return wheels;
-    }
-
-    private void setWheels(final int wheels) {
-        this.wheels = wheels;
     }
 
     @Override
@@ -45,25 +32,26 @@ class Car {
      * The builder abstraction.
      */
     static class Builder {
-        private Car car;
+        private final int wheels;
+        private Color color;
+        private Brand brand;
 
         public Builder(final int wheels) {
-            car = new Car();
-            car.setWheels(wheels);
-        }
-
-        public Car build() {
-            return car;
+            this.wheels = wheels;
         }
 
         public Builder setColor(final Color color) {
-            car.setColor(color);
+            this.color = color;
             return this;
         }
 
         public Builder setBrand(final Brand brand) {
-            car.setBrand(brand);
+            this.brand = brand;
             return this;
+        }
+
+        public Car build() {
+            return new Car(this);
         }
     }
 }

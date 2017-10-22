@@ -4,7 +4,7 @@ Design patterns implementated in Java ☺!
 
 ## Behavioral
 
-* [Delegation pattern](./behavioral/delegation/)
+* [Delegation Pattern](./behavioral/delegation/)
 
 ## Concurrency
 

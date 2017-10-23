@@ -1,7 +1,7 @@
 package creational.builder;
 
 /**
- * Demonstration of Builder pattern. This provides a better way to create a object with large number of parameters.
+ * Demonstration of Builder pattern.
  */
 public class App {
 

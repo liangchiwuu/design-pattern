@@ -4,8 +4,7 @@ import behavioral.delegation.printers.CanonPrinter;
 import behavioral.delegation.printers.EpsonPrinter;
 
 /**
- * Demonstration of delegation pattern. Notice that by calling print method through Printer controller, we can separate
- * the user from directly accessing specific Printer instances.
+ * Demonstration of delegation pattern.
  */
 public class App {
 

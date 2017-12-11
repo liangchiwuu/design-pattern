@@ -3,21 +3,32 @@
 [![License](https://img.shields.io/badge/license-GPL%203.0-brightgreen.svg)](./LICENSE)
 ![Language](https://img.shields.io/badge/language-Java-blue.svg)
 
-Design patterns implementated in Java ☺!
+Design patterns in Java ☺!
 
-## Patterns
-
-### Behavioral
-
-* [Delegation Pattern](./behavioral/delegation/)
-
-### Concurrency
+## Gang of Four Patterns
 
 ### Creational
 
-* [Builder Pattern](./creational/builder/)
+* [Builder](./creational/builder/)
 
 ### Structural
+
+* Decorator
+
+### Behavioral
+
+* [Delegation](./behavioral/delegation/)
+
+## Other Patterns
+
+### Architectural
+
+* Data Access Object
+* [Data Transfer Object](./architectural/datatransferobject)
+
+### Concurrency
+
+* Balking
 
 ### Anti
 

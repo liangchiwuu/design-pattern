@@ -26,5 +26,5 @@ Design patterns implementated in Java ☺!
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/)
+* [Software design pattern - Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
 * [Java Design Patterns](http://java-design-patterns.com/)

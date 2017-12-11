@@ -9,7 +9,9 @@ Design patterns in Java ☺!
 
 ### Creational
 
+* Abstract Factory
 * [Builder](./creational/builder/)
+* Factory Method
 
 ### Structural
 
@@ -24,7 +26,7 @@ Design patterns in Java ☺!
 ### Architectural
 
 * Data Access Object
-* [Data Transfer Object](./architectural/datatransferobject)
+* Data Transfer Object
 
 ### Concurrency
 
